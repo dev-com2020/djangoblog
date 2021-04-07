@@ -6,8 +6,8 @@
             <div class="data">
             <p>opublikowany: {{ post.published_date }}</p>
             </div>
-        <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
-        <img class="img" src="{{ post.image.url }}" alt="Obrazek" width="10%"><br/>
+        <h2><b><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></b></h2>
+        <img src="{{ post.image.url }}" class="img" alt="Obrazek" width="40%"><br/>
             <em>{{ post.text|linebreaksbr }}</em><br/>
         </div>
         {% endfor %}
