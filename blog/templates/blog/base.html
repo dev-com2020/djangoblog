@@ -5,28 +5,33 @@
             <title>Blog dla programistów</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-            <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         </head>
 <body>
-<nav class="navbar navbar-light" style="background-color: #C25100;">
-    <a class="navbar-brand" href="/">
-      <img class="logo" src="/media/images/logo.png" alt="" width="130">
-        {% if user.is_authenticated %}
+<nav class="navbar navbar-light" style="background-color: #061A40;">
+    <a class="top-menu" href="/">Facebook</a>
+    <a class="top-menu" href="/">Twitter</a>
+    <a class="top-menu" href="/">Youtube</a>
+    <div class="plus">
+    {% if user.is_authenticated %}
     <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
     {% endif %}
-    </a>
+    </a></div>
 </nav>
     <div class="all">
 <nav class="navbar navbar-light bg-light">
       <div class="page-header">
-          <a class="nav-link2" href="/"><b>Blog dla programistów</b></a>
-        <a class="nav-link" href="/">Strona główna</a>
-        <a class="nav-link" href="#">Najnowsze artykuły</a>
-        <a class="nav-link" href="#">Pisz dla nas</a>
-        <a class="nav-link" href="#">Kontakt</a>
+          <img src="/media/images/logo.png" height="5%">
+        <a class="nav-link" href="/"><b>Strona główna</b></a>
+        <a class="nav-link" href="#"><b>Najnowsze artykuły</b></a>
+        <a class="nav-link" href="#"><b>Pisz dla nas</b></a>
+        <a class="nav-link" href="#"><b>Kontakt</b></a>
       </div>
+    <div class="gora">
+    <p class="title"><b>Blog dla programisty</b></p>
+    <img class="baner" src="/media/images/baner.jpg"><br/><br/><br/>
+</div>
 </nav>
 <div class="content container">
     <div class="row">
@@ -43,29 +48,29 @@
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <h6><b>O nas</b></h6>
-            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus, magna at euismod semper, turpis elit vulputate velit, consequat ultrices augue odio et libero. Pellentesque ac nulla elit. Aliquam suscipit nisl nunc, at tempus mi hendrerit at. Nullam tincidunt nisi sit amet orci mollis dictum. Nullam sollicitudin faucibus ante tempus pellentesque. Etiam euismod elit lacinia erat consequat vehicula. Aliquam id eros fermentum, aliquet arcu eu, porta orci. Nam lorem ipsum, convallis et condimentum feugiat, viverra at risus. Aliquam ultricies orci sit amet purus condimentum, non placerat purus dignissim. Maecenas et dictum augue. Duis ultrices auctor orci ac tincidunt. Nullam et mauris eu neque scelerisque porttitor. Donec vitae ornare mi. Donec id convallis orci.</p>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6><b>Kategorie</b></h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+              <li><a href="/">C</a></li>
+              <li><a href="/">UI Design</a></li>
+              <li><a href="/">PHP</a></li>
+              <li><a href="/">Java</a></li>
+              <li><a href="/">Android</a></li>
+              <li><a href="/">Python</a></li>
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6><b>Szybkie linki</b></h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              <li><a href="/">O nas</a></li>
+              <li><a href="/">Kontakt</a></li>
+              <li><a href="/">Współpraca</a></li>
+              <li><a href="/">Ciasteczka</a></li>
+              <li><a href="/">Mapa strony</a></li>
             </ul>
           </div>
         </div>
