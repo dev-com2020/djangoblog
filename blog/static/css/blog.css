@@ -1,12 +1,16 @@
 .page-header {
     background-color: #ffffff;
     margin-top: 5px;
-    padding: 20px 60px 10px 20px;
+    padding: 10px 50px 0px 0px;
     color: #C25100;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     width:70%;
     border-style: hidden;
+}
+
+.text-justify{
+margin-right: 55px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -101,9 +105,8 @@ h2{
     font-size: 45px;
 }
 
-
 .stopka{
-    margin: auto;
+    margin-top: 35px;
     width: 100%;
     padding: 10px;
     background-color: #061A40;
@@ -111,7 +114,7 @@ h2{
 
 .site-footer{
     padding: 45px 0 20px;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 24px;
     color: #ffffff;
 }
@@ -123,7 +126,7 @@ h2{
 
 .site-footer hr.small
 {
-  margin:20px 0
+  margin:20px 0;
 }
 .site-footer h6
 {
@@ -131,7 +134,7 @@ h2{
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
-  letter-spacing:2px
+  letter-spacing:2px;
 }
 .site-footer a
 {
@@ -145,11 +148,11 @@ h2{
 .footer-links
 {
   padding-left:0;
-  list-style:none
+  list-style:none;
 }
 .footer-links li
 {
-  display:block
+  display:block;
 }
 .footer-links a
 {
@@ -162,11 +165,11 @@ h2{
 }
 .footer-links.inline li
 {
-  display:inline-block
+  display:inline-block;
 }
 .site-footer .social-icons
 {
-  text-align:right
+  text-align:right;
 }
 .site-footer .social-icons a
 {
@@ -174,55 +177,58 @@ h2{
   height:40px;
   line-height:40px;
   margin-left:6px;
-  margin-right:0;
+  margin-right:2px;
   border-radius:100%;
-  background-color:#33353d
+  background-color:#33353d;
 }
 .copyright-text
 {
-  margin:0
+  margin:0;
 }
 @media (max-width:991px)
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px
+    margin-bottom:30px;
   }
 }
 @media (max-width:767px)
 {
   .site-footer
   {
-    padding-bottom:0
+    padding-bottom:0;
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center
+    text-align:center;
+
   }
 }
 .social-icons
 {
   padding-left:0;
   margin-bottom:0;
-  list-style:none
+  list-style:none;
 }
 .social-icons li
 {
   display:inline-block;
-  margin-bottom:4px
+  margin-bottom:4px;
+
 }
+
 .social-icons li.title
 {
   margin-right:15px;
   text-transform:uppercase;
   color:#96a2b2;
   font-weight:700;
-  font-size:13px
+  font-size:13px;
 }
 .social-icons a{
   background-color:#eceeef;
   color:#818a91;
-  font-size:16px;
+  font-size:13px;
   display:inline-block;
   line-height:44px;
   width:44px;
@@ -232,35 +238,36 @@ h2{
   border-radius:100%;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
-  transition:all .2s linear
+  transition:all .2s linear;
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
-  background-color:#29aafe
+  background-color:#29aafe;
 }
 .social-icons.size-sm a
 {
   line-height:34px;
-  height:34px;
+  height:30px;
   width:34px;
-  font-size:14px
+  font-size:12px;
 }
 .social-icons a.facebook:hover
 {
-  background-color:#3b5998
+  background-color:#3b5998;
+
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#00aced;
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#007bb6;
 }
 .social-icons a.dribbble:hover
 {
-  background-color:#ea4c89
+  background-color:#ea4c89;
 }
 @media (max-width:767px)
 {
@@ -268,6 +275,10 @@ h2{
   {
     display:block;
     margin-right:0;
-    font-weight:600
+    font-weight:600;
   }
 }
+i{
+margin-top: 8px;
+}
+
